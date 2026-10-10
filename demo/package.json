@@ -1,0 +1,14 @@
+{
+  "name": "agentcraft-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "AgentCraft 本地离线演示包：内置运行依赖，无需现场 npm 下载。",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "@fastify/static": "^8.0.3",
+    "fastify": "^5.1.0"
+  }
+}

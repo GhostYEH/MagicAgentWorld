@@ -1,0 +1,428 @@
+{
+  "base": "http://localhost:8791",
+  "checkedAt": "2026-10-10T06:01:33.259Z",
+  "desktop": [
+    {
+      "width": 1280,
+      "height": 720,
+      "completed": 0,
+      "unlocked": [
+        "model-core"
+      ],
+      "initialFrame": {
+        "zoom": 0.2526905829596413,
+        "maxZoom": 0.27466367713004486,
+        "allSixVisible": true
+      },
+      "maxFrame": {
+        "zoom": 0.27466367713004486,
+        "maxZoom": 0.27466367713004486,
+        "allSixVisible": true
+      },
+      "atlasZoom": 0.16861979166666666,
+      "surroundings": {
+        "initial": {
+          "maxBlankRun": 0,
+          "blankSamples": 0,
+          "samples": 2000
+        },
+        "maximum": {
+          "maxBlankRun": 0,
+          "blankSamples": 0,
+          "samples": 2000
+        },
+        "atlas": {
+          "maxBlankRun": 0,
+          "blankSamples": 0,
+          "samples": 2000
+        }
+      },
+      "labelBounds": true,
+      "tooltipBounds": true,
+      "overflow": {
+        "x": false,
+        "y": false
+      }
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "completed": 0,
+      "unlocked": [
+        "model-core"
+      ],
+      "initialFrame": {
+        "zoom": 0.2774439461883408,
+        "maxZoom": 0.3015695067264574,
+        "allSixVisible": true
+      },
+      "maxFrame": {
+        "zoom": 0.3015695067264574,
+        "maxZoom": 0.3015695067264574,
+        "allSixVisible": true
+      },
+      "atlasZoom": 0.18424479166666666,
+      "surroundings": {
+        "initial": {
+          "maxBlankRun": 0,
+          "blankSamples": 0,
+          "samples": 2134
+        },
+        "maximum": {
+          "maxBlankRun": 0,
+          "blankSamples": 0,
+          "samples": 2134
+        },
+        "atlas": {
+          "maxBlankRun": 0,
+          "blankSamples": 0,
+          "samples": 2134
+        }
+      },
+      "labelBounds": true,
+      "tooltipBounds": true,
+      "overflow": {
+        "x": false,
+        "y": false
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "completed": 0,
+      "unlocked": [
+        "model-core"
+      ],
+      "initialFrame": {
+        "zoom": 0.4383408071748879,
+        "maxZoom": 0.476457399103139,
+        "allSixVisible": true
+      },
+      "maxFrame": {
+        "zoom": 0.476457399103139,
+        "maxZoom": 0.476457399103139,
+        "allSixVisible": true
+      },
+      "atlasZoom": 0.2858072916666667,
+      "surroundings": {
+        "initial": {
+          "maxBlankRun": 0,
+          "blankSamples": 0,
+          "samples": 3000
+        },
+        "maximum": {
+          "maxBlankRun": 0,
+          "blankSamples": 0,
+          "samples": 3000
+        },
+        "atlas": {
+          "maxBlankRun": 0,
+          "blankSamples": 0,
+          "samples": 3000
+        }
+      },
+      "labelBounds": true,
+      "tooltipBounds": true,
+      "overflow": {
+        "x": false,
+        "y": false
+      }
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "completed": 0,
+      "unlocked": [
+        "model-core"
+      ],
+      "initialFrame": {
+        "zoom": 0.6239910313901346,
+        "maxZoom": 0.6782511210762332,
+        "allSixVisible": true
+      },
+      "maxFrame": {
+        "zoom": 0.6782511210762332,
+        "maxZoom": 0.6782511210762332,
+        "allSixVisible": true
+      },
+      "atlasZoom": 0.4029947916666667,
+      "surroundings": {
+        "initial": {
+          "maxBlankRun": 0,
+          "blankSamples": 0,
+          "samples": 4000
+        },
+        "maximum": {
+          "maxBlankRun": 0,
+          "blankSamples": 0,
+          "samples": 4000
+        },
+        "atlas": {
+          "maxBlankRun": 0,
+          "blankSamples": 0,
+          "samples": 4000
+        }
+      },
+      "labelBounds": true,
+      "tooltipBounds": true,
+      "overflow": {
+        "x": false,
+        "y": false
+      }
+    },
+    {
+      "width": 3440,
+      "height": 1440,
+      "completed": 0,
+      "unlocked": [
+        "model-core"
+      ],
+      "initialFrame": {
+        "zoom": 0.6239910313901346,
+        "maxZoom": 0.6782511210762332,
+        "allSixVisible": true
+      },
+      "maxFrame": {
+        "zoom": 0.6782511210762332,
+        "maxZoom": 0.6782511210762332,
+        "allSixVisible": true
+      },
+      "atlasZoom": 0.4029947916666667,
+      "surroundings": {
+        "initial": {
+          "maxBlankRun": 0,
+          "blankSamples": 0,
+          "samples": 4880
+        },
+        "maximum": {
+          "maxBlankRun": 0,
+          "blankSamples": 0,
+          "samples": 4880
+        },
+        "atlas": {
+          "maxBlankRun": 0,
+          "blankSamples": 0,
+          "samples": 4880
+        }
+      },
+      "labelBounds": true,
+      "tooltipBounds": true,
+      "overflow": {
+        "x": false,
+        "y": false
+      }
+    },
+    {
+      "width": 3840,
+      "height": 1080,
+      "completed": 0,
+      "unlocked": [
+        "model-core"
+      ],
+      "initialFrame": {
+        "zoom": 0.4383408071748879,
+        "maxZoom": 0.476457399103139,
+        "allSixVisible": true
+      },
+      "maxFrame": {
+        "zoom": 0.476457399103139,
+        "maxZoom": 0.476457399103139,
+        "allSixVisible": true
+      },
+      "atlasZoom": 0.2858072916666667,
+      "surroundings": {
+        "initial": {
+          "maxBlankRun": 0,
+          "blankSamples": 0,
+          "samples": 4920
+        },
+        "maximum": {
+          "maxBlankRun": 0,
+          "blankSamples": 0,
+          "samples": 4920
+        },
+        "atlas": {
+          "maxBlankRun": 0,
+          "blankSamples": 0,
+          "samples": 4920
+        }
+      },
+      "labelBounds": true,
+      "tooltipBounds": true,
+      "overflow": {
+        "x": false,
+        "y": false
+      }
+    },
+    {
+      "width": 5120,
+      "height": 1440,
+      "completed": 0,
+      "unlocked": [
+        "model-core"
+      ],
+      "initialFrame": {
+        "zoom": 0.6239910313901346,
+        "maxZoom": 0.6782511210762332,
+        "allSixVisible": true
+      },
+      "maxFrame": {
+        "zoom": 0.6782511210762332,
+        "maxZoom": 0.6782511210762332,
+        "allSixVisible": true
+      },
+      "atlasZoom": 0.4029947916666667,
+      "surroundings": {
+        "initial": {
+          "maxBlankRun": 0,
+          "blankSamples": 0,
+          "samples": 6560
+        },
+        "maximum": {
+          "maxBlankRun": 0,
+          "blankSamples": 0,
+          "samples": 6560
+        },
+        "atlas": {
+          "maxBlankRun": 0,
+          "blankSamples": 0,
+          "samples": 6560
+        }
+      },
+      "labelBounds": true,
+      "tooltipBounds": true,
+      "overflow": {
+        "x": false,
+        "y": false
+      }
+    }
+  ],
+  "edgePositions": [
+    {
+      "width": 3840,
+      "height": 1080,
+      "requested": {
+        "x": 48,
+        "y": 2000
+      },
+      "actual": {
+        "x": 48,
+        "y": 2000
+      },
+      "zoom": 0.2858072916666667,
+      "surroundings": {
+        "maxBlankRun": 0,
+        "blankSamples": 0,
+        "samples": 4920
+      },
+      "source": "seeded walkable exploration position; no chapter progress"
+    },
+    {
+      "width": 3840,
+      "height": 1080,
+      "requested": {
+        "x": 3024,
+        "y": 48
+      },
+      "actual": {
+        "x": 3024,
+        "y": 48
+      },
+      "zoom": 0.2858072916666667,
+      "surroundings": {
+        "maxBlankRun": 0,
+        "blankSamples": 0,
+        "samples": 4920
+      },
+      "source": "seeded walkable exploration position; no chapter progress"
+    },
+    {
+      "width": 5120,
+      "height": 1440,
+      "requested": {
+        "x": 48,
+        "y": 2000
+      },
+      "actual": {
+        "x": 48,
+        "y": 2000
+      },
+      "zoom": 0.4029947916666667,
+      "surroundings": {
+        "maxBlankRun": 0,
+        "blankSamples": 0,
+        "samples": 6560
+      },
+      "source": "seeded walkable exploration position; no chapter progress"
+    },
+    {
+      "width": 5120,
+      "height": 1440,
+      "requested": {
+        "x": 3024,
+        "y": 48
+      },
+      "actual": {
+        "x": 3024,
+        "y": 48
+      },
+      "zoom": 0.4029947916666667,
+      "surroundings": {
+        "maxBlankRun": 0,
+        "blankSamples": 0,
+        "samples": 6560
+      },
+      "source": "seeded walkable exploration position; no chapter progress"
+    }
+  ],
+  "preview": {
+    "elapsedSeconds": 10.241,
+    "positionPreserved": true,
+    "completed": 0,
+    "unlocked": [
+      "C1"
+    ],
+    "presentation": "explore",
+    "surroundings": {
+      "maxBlankRun": 0,
+      "blankSamples": 0,
+      "samples": 2134
+    }
+  },
+  "fixtures": [
+    {
+      "savedChapters": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "completed": 3,
+      "statuses": [
+        "completed",
+        "current",
+        "available",
+        "locked"
+      ],
+      "simulationReady": false,
+      "source": "seeded saved progress, not new teaching implementation"
+    },
+    {
+      "savedChapters": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ],
+      "completed": 6,
+      "statuses": [
+        "completed"
+      ],
+      "simulationReady": true,
+      "source": "seeded saved progress, not new teaching implementation"
+    }
+  ],
+  "errors": [],
+  "externalRequests": []
+}

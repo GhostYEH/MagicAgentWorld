@@ -1,0 +1,80 @@
+[
+  {
+    "id": "model-core",
+    "name": "大模型中枢",
+    "edgeAlpha": 0,
+    "footprint": {
+      "u": 310,
+      "v": 240
+    },
+    "size": {
+      "width": 710,
+      "height": 735
+    }
+  },
+  {
+    "id": "tool-depot",
+    "name": "工具工坊",
+    "edgeAlpha": 0,
+    "footprint": {
+      "u": 250,
+      "v": 170
+    },
+    "size": {
+      "width": 580,
+      "height": 542
+    }
+  },
+  {
+    "id": "loop-tower",
+    "name": "执行循环塔",
+    "edgeAlpha": 0,
+    "footprint": {
+      "u": 230,
+      "v": 180
+    },
+    "size": {
+      "width": 570,
+      "height": 579
+    }
+  },
+  {
+    "id": "memory-archive",
+    "name": "上下文与记忆馆",
+    "edgeAlpha": 0,
+    "footprint": {
+      "u": 270,
+      "v": 180
+    },
+    "size": {
+      "width": 610,
+      "height": 573
+    }
+  },
+  {
+    "id": "control-gate",
+    "name": "运行控制塔",
+    "edgeAlpha": 0,
+    "footprint": {
+      "u": 225,
+      "v": 165
+    },
+    "size": {
+      "width": 550,
+      "height": 561
+    }
+  },
+  {
+    "id": "repair-lab",
+    "name": "观察与修复站",
+    "edgeAlpha": 0,
+    "footprint": {
+      "u": 260,
+      "v": 180
+    },
+    "size": {
+      "width": 600,
+      "height": 556
+    }
+  }
+]

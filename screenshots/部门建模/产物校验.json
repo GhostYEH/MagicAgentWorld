@@ -1,0 +1,77 @@
+{
+  "files": 13,
+  "distEqualsDemo": true,
+  "sha256": {
+    "favicon.svg": "2e08a6127976ab44b13a934d059754789110d3ebae5dbea7dc88db9c7e08163d",
+    "index.html": "b724a884e3684ea0f5430cc788602135fae9c99ba62e50429055c473de3fb4d6",
+    "assets/index-DOfwN5Pe.css": "9fcc6a2a16e30f0c475a2ee45508ad098b4f9ad4e91974fac2347cb1e7fc8e21",
+    "assets/index-lWsHfI0n.js": "66426cfeb563248032a55938d12ae12c051c3753fa52c98d6900491f025aae41",
+    "assets/game/explorer.png": "3d3fab0f4fd0c1f987d50deff13697902882d97d8957eb99382cd04acb61a5f8",
+    "assets/home/campus-archipelago.png": "088048fda151b101904bffdfe5001dc993d80ed9d68878f75634c4c030adfdb3",
+    "assets/home/fonts/home-font.css": "7032d3f1c0cb46754e129128949c4d9acab1b365a5f8ed8419d9accd531a6a61",
+    "assets/home/fonts/noto-sans-sc-home-400.woff2": "bb16d6cdce3bd108b2928481a61164f1dbce3707ae200d7a0efc276b8e7a8068",
+    "assets/home/fonts/noto-sans-sc-home-500.woff2": "bb16d6cdce3bd108b2928481a61164f1dbce3707ae200d7a0efc276b8e7a8068",
+    "assets/home/fonts/noto-sans-sc-home-700.woff2": "bb16d6cdce3bd108b2928481a61164f1dbce3707ae200d7a0efc276b8e7a8068",
+    "assets/home/fonts/OFL.txt": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+    "assets/home/fonts/source-url.txt": "5cc044431dd7ca3e8bdcf3210ac844dc066c24b350552d91f0e6e2c5c898f79d",
+    "assets/home/fonts/SOURCE.txt": "d12d261b338b4d934ccb8f7261f2acf5e2a1cc4ba2d018669c519e7fa8a64bc5"
+  },
+  "health": {
+    "ok": true,
+    "service": "agentcraft-server",
+    "store": "sqlite",
+    "realModeAvailable": false,
+    "runs": 0
+  },
+  "chapterGates": true,
+  "desktopChecks": [
+    {
+      "width": 1280,
+      "height": 720,
+      "overflow": false,
+      "unlocked": [
+        "C1"
+      ],
+      "blocking": "C1",
+      "errors": [],
+      "failed": [],
+      "external": []
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "overflow": false,
+      "unlocked": [
+        "C1"
+      ],
+      "blocking": "C1",
+      "errors": [],
+      "failed": [],
+      "external": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "overflow": false,
+      "unlocked": [
+        "C1"
+      ],
+      "blocking": "C1",
+      "errors": [],
+      "failed": [],
+      "external": []
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "overflow": false,
+      "unlocked": [
+        "C1"
+      ],
+      "blocking": "C1",
+      "errors": [],
+      "failed": [],
+      "external": []
+    }
+  ]
+}

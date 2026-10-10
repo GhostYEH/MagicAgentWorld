@@ -1,0 +1,30 @@
+import {expect,test} from '@playwright/test';
+import {ready,state,mapPoint} from './game';
+import {toView} from '../../apps/web/src/game/WorldProjection';
+
+test('等距场景：屏幕方向移动、滚轮镜头、逆投影点击与实际遮挡',async({page})=>{
+  await ready(page);
+  const before=await state(page);
+  expect(before.render.projection).toBe('isometric');
+  expect(before.render.x).toBe(toView(before).x);
+  expect(before.render.y).toBe(toView(before).y);
+  await page.keyboard.down('d');
+  await expect.poll(async()=>(await state(page)).render.x).toBeGreaterThan(before.render.x+24);
+  await page.keyboard.up('d');
+  expect(Math.abs((await state(page)).render.y-before.render.y)).toBeLessThan(.001);
+  await page.mouse.move(683,384);
+  await page.mouse.wheel(0,-120);
+  await expect.poll(async()=>(await state(page)).render.zoom).toBeGreaterThan(before.render.zoom);
+  await page.keyboard.press('m');
+  await expect.poll(async()=>(await state(page)).atlas).toBe(true);
+  const goal={x:1515,y:795},p=await mapPoint(page,goal);
+  await page.mouse.click(p.x,p.y);
+  await expect.poll(async()=>{const s=await state(page);return Math.hypot(s.x-goal.x,s.y-goal.y);}).toBeLessThan(5);
+  await expect.poll(async()=>(await state(page)).render.occluded).toContain('building:model-core');
+  const arrived=await state(page);
+  expect(arrived.render.depth).toBeCloseTo(toView(arrived).y+12,5);
+  await page.screenshot({path:'screenshots/game-isometric-occlusion.png'});
+  await page.keyboard.press('m');
+  await expect.poll(async()=>(await state(page)).atlas).toBe(true);
+  expect((await state(page)).render.occluded).toEqual([]);
+});

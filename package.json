@@ -1,0 +1,39 @@
+{
+  "name": "agentcraft",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AgentCraft —— Phaser 网页探索游戏，六章规划，第一章可玩原型",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "concurrently -k -n server,web -c blue,green \"npm:dev:server\" \"npm:dev:web\"",
+    "dev:web": "npm --workspace @agentcraft/web run dev",
+    "dev:server": "npm --workspace @agentcraft/server run dev",
+    "typecheck": "tsc -p packages/engine/tsconfig.json --noEmit && tsc -p packages/content/tsconfig.json --noEmit && tsc -p apps/web/tsconfig.json --noEmit && tsc -p apps/server/tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "build": "npm run build:web && npm run build:server",
+    "build:web": "npm --workspace @agentcraft/web run build",
+    "build:server": "npm --workspace @agentcraft/server run build",
+    "start": "node apps/server/dist/index.js",
+    "preview": "npm run build && npm run start",
+    "package:demo": "node scripts/package-demo.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.9.0",
+    "concurrently": "^9.1.0",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  },
+  "engines": {
+    "node": ">=20.11"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "types": ["node"],
+    "noEmit": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "baseUrl": ".",
+    "paths": {
+      "@agentcraft/engine": ["../../packages/engine/src/index.ts"],
+      "@agentcraft/content": ["../../packages/content/src/index.ts"]
+    }
+  },
+  "include": ["src"]
+}
